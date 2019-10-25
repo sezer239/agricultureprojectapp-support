@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    style="@style/AppTheme.RoundedCornerMaterialEditButtons">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/save_location_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#FFFFFFFF" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="15dp">
+
+            <Button
+                android:id="@+id/yes_button"
+                android:layout_width="45dp"
+                android:layout_height="25dp"
+                android:layout_above="@+id/skipTextView"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:elevation="7dp"
+                style="@style/AppTheme.RoundedCornerMaterialButton"
+                android:text="Yes"
+                android:textAllCaps="false"
+                android:textColor="@color/colorLoginText"
+                android:textSize="16sp" />
+            <Button
+                android:id="@+id/no_button"
+                android:layout_width="45dp"
+                android:layout_height="25dp"
+                android:layout_above="@+id/skipTextView"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_drawable"
+                android:elevation="7dp"
+                android:text="No"
+                android:textAllCaps="false"
+                android:textColor="@color/colorLoginText"
+                android:textSize="16sp"
+                android:layout_marginLeft="35dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

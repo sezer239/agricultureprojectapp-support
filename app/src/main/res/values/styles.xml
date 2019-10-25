@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#4f81a8</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPageBackground</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorProgressBar</item>
+    </style>
+
+    <style name="AppTheme.RoundedCornerMaterialButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_shape</item>
+    </style>
+    <style name="AppTheme.RoundedCornerMaterialButtonSignOut" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_shape_red</item>
+    </style>
+    <style name="AppTheme.RoundedCornerMaterialPopup" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_popup</item>
+    </style>
+    <style name="AppTheme.RoundedCornerMaterialOkButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_ok_button</item>
+    </style>
+    <style name="AppTheme.RoundedCornerMaterialTextBackground" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_text_shape</item>
+    </style>
+    <style name="AppTheme.RoundedCornerMaterialEditButtons" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_edit_button</item>
+    </style>
+    <style name="AppTheme.RoundedCornerMaterialEditButt" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button_edit</item>
+    </style>
+
+</resources>

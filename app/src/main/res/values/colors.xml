@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBackground">#756266</color>
+    <color name="colorPageBackground">#333C46</color>
+    <color name="colorLoginText">#FFFFFF</color>
+    <color name="colorLoginBlackText">#fe000000</color>
+    <color name="colorProgressBar">#A7B38D</color>
+    <color name="colorUserInfoText">#C1BE95</color>
+    <color name="colorUserInfo">#D4D2B5</color>
+    <color name="colorGray">#3E3C49</color>
+
+</resources>

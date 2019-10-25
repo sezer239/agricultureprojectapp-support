@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    style="@style/AppTheme.RoundedCornerMaterialEditButtons">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you want to delete this farm?"
+            android:textColor="#FFFFFFFF" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="15dp">
+
+            <Button
+                android:id="@+id/check_button"
+                android:layout_width="45dp"
+                android:layout_height="25dp"
+                android:layout_above="@+id/skipTextView"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:elevation="7dp"
+                style="@style/AppTheme.RoundedCornerMaterialButtonSignOut"
+                android:text="Yes"
+                android:textAllCaps="false"
+                android:textColor="@color/colorLoginText"
+                android:textSize="16sp" />
+            <Button
+                android:id="@+id/reject_button"
+                android:layout_width="45dp"
+                android:layout_height="25dp"
+                android:layout_above="@+id/skipTextView"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_drawable"
+                android:elevation="7dp"
+                android:text="No"
+                android:textAllCaps="false"
+                android:textColor="@color/colorLoginText"
+                android:textSize="16sp"
+                android:layout_marginLeft="35dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

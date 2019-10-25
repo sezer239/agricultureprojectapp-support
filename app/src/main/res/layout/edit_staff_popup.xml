@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    style="@style/AppTheme.RoundedCornerMaterialEditButtons">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/change_pass_email"
+            style="@style/AppTheme.RoundedCornerMaterialEditButt"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="Update Password"
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/change_profile_info"
+            style="@style/AppTheme.RoundedCornerMaterialEditButt"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="Update Profile"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

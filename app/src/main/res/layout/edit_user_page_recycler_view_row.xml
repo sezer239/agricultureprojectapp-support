@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:id="@+id/farm_image_card_view">
+
+    <LinearLayout
+        android:id="@+id/linear_recyclerview_rows"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="top"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="35dp">
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/farm_name_txt"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textColor="@color/colorLoginBlackText"
+        android:layout_marginBottom="15dp"/>
+
+</android.support.v7.widget.CardView>
